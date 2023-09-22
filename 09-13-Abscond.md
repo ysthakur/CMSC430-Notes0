@@ -28,6 +28,8 @@ Comments and whitespace allowed, but nothing else.
            (Ret))]))
 ```
 
+Leave result of each step in `rax` register
+
 To take from stdin, compile, and display:
 ```racket
 (define (main)
